@@ -1,0 +1,32 @@
+{
+  "name": "functionup-project",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palbijewar/functionUp-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palbijewar/functionUp-Project/issues"
+  },
+  "homepage": "https://github.com/palbijewar/functionUp-Project#readme",
+  "dependencies": {
+    "@pogix3m/short-number": "^1.0.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fund": "^1.0.0",
+    "html-to-text": "^9.0.5",
+    "mongoose": "^7.1.0",
+    "node-fetch": "^3.3.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.22"
+  }
+}
