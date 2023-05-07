@@ -7,7 +7,7 @@ import * as dotenv from 'dotenv'
 
 dotenv.config()
 
-const TOKEN = process.env.TOKEN
+const TOKEN = process.env.TOKEN || "5931738762:AAEoeKavD9HAky8dE9pU6IVGydPLRY4om_Q"
 const API_KEY = process.env.X_RapidAPI_Key || "65ec0c991cmshd9ff5d22f3e8bc8p1a58c0jsn98de86d5a6b9"
 const PORT = process.env.PORT || 5000
 const app = express()
